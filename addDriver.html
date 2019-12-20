@@ -1,0 +1,64 @@
+<html>
+<head>
+    <title>Add Driver</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS Got off W3 Schools Website  -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<!--<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="welcome.php">Home</a></li>
+            <li><a href="customer.php">Customer</a></li>
+            <li><a href="driver.php">Drivers</a></li>
+            <li><a href="add.html">New Reservations</></li>
+        </ul>
+    </div>
+</nav>-->
+<body>
+
+
+<form action="addDriver.php" method="post" name="form1">
+
+    <div class="container">
+        <div class="form-row">
+
+            <div class="form-group col-md-6">
+                <label>Driver First Name</label>
+                <input type="text" class="form-control" placeholder="Driver First Name" name="DriverFirstName" >
+            </div>
+            <div class="form-group col-md-6">
+                <label>Driver Last Name </label>
+                <input type="text" class="form-control" placeholder="Driver Last Name" name="DriverLastName"  >
+            </div>
+
+
+            <div class="form-group col-md-6">
+                <label>Driver Phone </label>
+                <input type="text" class="form-control" placeholder="Phone" name="DriverPhone">
+            </div>
+            <div class="form-group col-md-6">
+                <label>Driver Email </label>
+                <input type="text" class="form-control"  placeholder="Driver Email" name="DriverEmail"  >
+            </div>
+        </div>
+
+    </div>
+    <div class="col text-center">
+        <button type="submit" class="btn btn-primary" name="Submit" >Submit</button>
+    </div>
+    <div class="container">
+</form>
+
+</body>
+
+</html>
